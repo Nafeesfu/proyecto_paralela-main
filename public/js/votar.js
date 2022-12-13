@@ -8,12 +8,12 @@ const botonnulo = document.querySelector('#botonnulo');
 
 const urlAuth = ( window.location.hostname.includes('localhost') )
             ? 'http://localhost:8080/api/auth/'
-            : 'https://proyectoparalela-main-production.up.railway.app/api/auth';
+            : 'https://proyectoparalela-main-production.up.railway.app/api/auth/';
 
 
 const urlVotar = ( window.location.hostname.includes('localhost') )
             ? 'http://localhost:8080/api/usuarios/'
-            : 'https://proyectoparalela-main-production.up.railway.app/api/usuarios';
+            : 'https://proyectoparalela-main-production.up.railway.app/api/usuarios/';
 
 
 
