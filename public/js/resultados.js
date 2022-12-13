@@ -5,7 +5,7 @@ const divVotosNulo = document.querySelector('#votosNulo');
 
 const urlResultados = ( window.location.hostname.includes('localhost') )
                     ? 'http://localhost:8080/api/usuarios/'
-                    : '';
+                    : 'https://proyectoparalela-main-production.up.railway.app/api/usuarios';
 
 
 
