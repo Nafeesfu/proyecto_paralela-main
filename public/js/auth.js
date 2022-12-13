@@ -3,7 +3,7 @@
 
 const url = ( window.location.hostname.includes('localhost') )
             ? 'http://localhost:8080/api/auth/'
-            : '';
+            : 'https://proyectoparalela-main-production.up.railway.app/api/auth/';
 
 
 
